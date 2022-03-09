@@ -1,0 +1,24 @@
+IMDB Trivia Ratings game.
+Users will get a question (or rather a movie title) appear, and they will have 4 movie rating options to choose from.
+One of the movie ratings options will be the correct one while the other three options are incorrect.
+Getting a correct answer will get you a point. Incorrect answer moves onto the next question after showing you the correct answer.
+The premise of the game is to see how your ratings or what you think the ratings of movies are relative to the IMDB ratings, or essentially the internets rating of certain moviess.
+Users will also get a fun trivia fact about each movie after the question is answered (correctly or incorrectly)
+
+
+
+List of movies to include in the question list:
+
+- Manos: The Hands of Fate (Rating: 1.9) //Incuding this one as a bit of IMDB trivia as it was the worst rated IMDB movie for many years and became notoriusly known as so.
+- Titanic (Rating: 7.9) One of the most recognizable movies of the last 25 years, and a commercial juggernant, it holds the most consectutive weekends of being Number 1 at the box office. (15)
+- Avatar (Rating 7.9) The highest grossing movie of all time worldwide as well as one that recieved quite the mixed reaction from release even to now. Despite that it holds a solid 7.9 rating on IMDB.
+- Avengers: Endgame (Rating: 8.4) One of the most popular movies of the modern generation, it grossed the highest ever opening weekend at 357 million dollars. A number no other movie has come close to. (Yet)
+- Forrest Gump (Rating: 8.8) A critically and commercially acclaimed movie that won several Oscars, with many memorable lines and scenes that became part of pop culture. 
+- The Lion King (Rating:8.5) The higest grossing 2D animated movie of all time, as well as the best selling home video of all time. (VHS, anyone?)
+- Gladiator (Rating: 8.5) The movie score composed by Hans Zimmer is one of the best selling movie sountracks of all time.
+- Office Space (Rating: 7.7) This movie did quite poorly at the box office, it wasn't until after it came out on video that it became more popular and gained cult status. 
+- Anchorman: The Legend of Rong Burgundy (Rating:7.1)
+- Monty Python and the Holy Grail (Rating: 8.2) This movie's abrupt ending came about because it didn't have the budget for a large-scale battle sequence.
+- The Godfather (Rating: 9.2) The studios knew that had a masterpiece on their hands, the early buzz for this movie was so positive a sequel was planned before the film even finished.
+- Crash (Rating: 7.8) Crash won the Oscar for best picture in what many consider an upset. Some nominess that year were Brokeback Mountain, Capote, Munich.
+- Star Wars (Rating: ) 

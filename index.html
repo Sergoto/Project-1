@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>IMDB Rating Trivia - Project 1</title>
+  </head>
+  <body>
+    <div class="mainPage">
+      <div id="content" class="hide">
+        <div class="navBar">
+          <p class="questionNum">Question #<span id="questionCount"></span></p>
+          <h2 class="title">IMDB Rating Trivia</h2>
+          <p class="score">Correct Answers: <span id="correctCount">0</span></p>
+        </div>
+
+        <div class="intro">
+          <h3 class="info1">
+            Welcome to the IMDB Rating Trivia game, where you'll get a random
+            movie as your question along with 4 different movie ratings to
+            choose from, pick the one you think is the IMDB rating and see if
+            you're right, if you were close, or if you were way off!
+          </h3>
+          <h3 class="info2">
+            Time to put your movie taste to the test agianst the rest of the
+            internet!
+          </h3>
+        </div>
+        <div class="movie-container">
+          <h2 id="question">QUESTION</h2>
+          <div class="rating-container">
+            <button class="rating btn" id="option1">Answer 1</button>
+            <button class="rating btn" id="option2">Answer 2</button>
+            <button class="rating btn" id="option3">Answer 3</button>
+            <button class="rating btn" id="option4">Answer 4</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gameControls">
+    <button id="start-btn" class="start-btn btn">Start IMDB Game</button>
+    <button id="reset-btn" class="reset-btn btn hide">Reset</button>
+  </div>
+   <script src="./script.js"></script>
+  </body>
+</html>
+
+
+ 
+      
+     
+      
