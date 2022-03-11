@@ -1,72 +1,63 @@
- h1, h3, .gameOver, .movie-container, .rating-container{
-    text-align: center;
+body{
+    background-color: #262a35;
 }
 
-html, body {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: lightblue;
-}
-
-.navBar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1rem;
-    background: slategrey;
-}
-
-.title{
     font-size: 2rem;
-    color: yellow;
-    margin: 1;
 }
 
-.score, .questionNum{
-    color: white;
+h1 {
+    font-size: 5rem;
+    color: rgb(219, 165, 6);
+    margin-bottom: 5rem;
 }
 
-.score{
-    margin: 10px;
+h2{
+    font-size: 4rem;
+    margin-bottom: 4rem;
 }
 
-.rating {
-    color: white;
-    background-color: salmon;
-    margin: 50px;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;  
-    box-shadow: teal 5px 15px 15px;
-}
-
-.btn:hover {
-  border-color: black;
-  background-color: sandybrown;
-  cursor: pointer;
-}
-
-.start-btn, .reset-btn {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    background-color: rgb(219, 165, 6);
-    box-shadow: rgb(242, 219,131) 3px 5px 5px;
-    
-}
-
-.gameControls {
+.container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
     justify-content: center;
     align-items: center;
 }
 
-
-.hide {
-    display: none;
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28,26,26);
+    background-color: rgb(219, 165, 6);
+    border-radius: 4px;
 } 
 
+.btn:hover {
+    cursor: pointer;
+    box-shadow: rgb(242, 219,131) 0 0.4rem 1.4rem 0;
+    transition: transform 150ms;
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
