@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
     <title>IMDB Trivia Game</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div id="home" class="flex-column flex-center">
-            <h1>IMDB Ratings Trivia </h1>
-            <a href="/trivia.html" class="btn">Play</a>
-            <a href="/howtoplay.html" id="highscore-btn" class="btn">How To Play</a>
-
+      <div id="home" class="flex-column flex-center">
+        <h1>IMDB Ratings Trivia</h1>
+        <a href="/trivia.html" id ="play" class="btn">Play</a>
+        <button id="openModal" class="btn">How to Play</button>
+        <div id="modal">
+            <div id="modal-textbox">
+            <a id ="close" href="#">Close</a>
+            <h3>How to Play IMDB Trivia Game</h3>
+            </br>
+            <p>Welcome movie lovers! This is the IMDB Rating Trivia game. </p>
+            <p>In this game you'll get a random
+            movie to rate as your question along with 4 different movie ratings to
+            choose from</p>
+            <p>(Ratings from 1.0 to 10.0)</p> 
+            </br>
+            <p>Pick the rating you think is the IMDB rating and see if
+            you're right, if you were close, or if you were way off. </br>
+            Time to put your movie taste to the test against the rest of the
+            internet!</p> 
+            </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
-     
+
       

@@ -1,61 +1,66 @@
 body {
-    color: white;
+  color: white;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: left;
 }
 
 .choice-container {
-    display: flex;
-    margin-bottom: 1rem;
-    width: 100%;
-    border-radius: 5px;
-    background: rgb(219, 165, 6);
-    font-size: 3rem;
-    min-width: 50rem;
+  display: flex;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  background: rgb(219, 165, 6);
+  font-size: 3rem;
+  min-width: 50rem;
 }
 
 .choice-container:hover {
-    cursor: pointer;
-    box-shadow: rgb(242, 219,131) 0 0.4rem 1.4rem 0;
-    transition: transform 150ms;
-    transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: rgb(242, 219, 131) 0 0.4rem 1.4rem 0;
+  transition: transform 150ms;
+  transform: scale(1.05);
 }
 
 .choice-option {
-    padding: 1rem 1.5rem;
-    color: white;
+  padding: 1rem 1.5rem;
+  color: white;
 }
 
 .choice-text {
-    padding: 1rem;
-    width: 100%;
+  padding: 1rem;
+  width: 100%;
 }
 .correct {
-    background-color: green;
+  background-color: darkgreen;
 }
 
-.wrong {
-    background-color: red;
+.incorrect {
+  background-color: darkred;
 }
 
 #nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navInfo {
-    text-align: center;
+  text-align: center;
 }
 
 #progressBar {
-    width: 20rem;
-    height: 3rem;
-    border: 0.2rem solid rgb(219, 165, 6);
-    margin-top: 2rem; 
-    border-radius: 50px;
-    overflow: hidden;
+  width: 20rem;
+  height: 3rem;
+  border: 0.2rem solid rgb(219, 165, 6);
+  margin-top: 2rem;
+  border-radius: 50px;
+  overflow: hidden;
 }
 
 #progressBarFull {
-    height: 100%;
-    background: green;
-    width: 0%;
+  height: 100%;
+  background: rgb(242, 219, 131);
+  width: 0%;
 }

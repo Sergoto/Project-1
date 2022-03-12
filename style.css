@@ -1,59 +1,96 @@
-body{
-    background-color: #262a35;
+body {
+  background-color: #262a35;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
 
 h1 {
-    font-size: 5rem;
-    color: rgb(219, 165, 6);
-    margin-bottom: 5rem;
+  font-size: 6rem;
+  color: rgb(219, 165, 6);
+  margin-bottom: 5rem;
 }
 
-h2{
-    font-size: 4rem;
-    margin-bottom: 4rem;
+h2 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+h3 {
+    text-align: center;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-center {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
-    font-size: 2.4rem;
-    padding: 2rem 0;
-    width: 30rem;
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background-color: rgb(219, 165, 6);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: rgb(242, 219, 131) 0 0.4rem 1.4rem 0;
+  transition: transform 150ms;
+  transform: scale(1.05);
+}
+
+#modal {
+    background-color: rgb(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: none;
+}
+
+#modal-textbox {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: bold;
     text-align: center;
-    margin-bottom: 1rem;
-    text-decoration: none;
-    color: rgb(28,26,26);
-    background-color: rgb(219, 165, 6);
-    border-radius: 4px;
-} 
+    background-color: rgb(242, 219, 131);
+    height: 350px;
+    width: 550px;
+    border-radius: 2px;
+    margin: 150px auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
 
 .info1 {
-    font-size: 1.4rem;
-    margin: 3rem;
-    color: white;
-    text-align: center;
+  font-size: 1.4rem;
+  margin: 3rem;
+  color: white;
+  text-align: center;
 }
