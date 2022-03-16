@@ -13,6 +13,7 @@ h1 {
   font-size: 6rem;
   color: rgb(219, 165, 6);
   margin-bottom: 5rem;
+  text-align: center;
 }
 
 h2 {
@@ -88,9 +89,15 @@ h3 {
 }
 
 
-.info1 {
-  font-size: 1.4rem;
-  margin: 3rem;
+.info1, ul, .ending {
+  font-size: 1.5rem;
+  margin: 1.5rem;
   color: white;
   text-align: center;
+}
+
+.replay {
+    color :white;
+    display: inline-block;
+    text-align: center;
 }
