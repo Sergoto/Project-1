@@ -2,8 +2,7 @@ IMDB Trivia Ratings game.
 Users will get a question (or rather a movie title) appear, and they will have 4 movie rating options to choose from.
 One of the movie ratings options will be the correct one while the other three options are incorrect.
 Getting a correct answer will get you a point. Incorrect answer moves onto the next question after showing you the correct answer.
-The premise of the game is to see how your ratings or what you think the ratings of movies are relative to the IMDB ratings, or essentially the internets rating of certain moviess.
-Users will also get a fun trivia fact about each movie after the question is answered (correctly or incorrectly)
+The premise of the game is to see how your ratings or what you think the ratings of movies are relative to the IMDB ratings, or essentially the internets rating of certain moviess.`
 
 
 
