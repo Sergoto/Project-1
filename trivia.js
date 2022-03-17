@@ -161,7 +161,8 @@ startGame = () => {
   getNewQuestion();
 };
 
-//This returns the user back to the main page once the game is over.
+
+//A function that sends the user to the end game page once the game is over.
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= totalQuestions) {
     localStorage.setItem("mostRecentScore", score);
@@ -172,7 +173,7 @@ getNewQuestion = () => {
   questionCounter++;
   progressText.innerHTML = `Question ${questionCounter} of ${totalQuestions}`;
   progressBarFull.style.width = `${(questionCounter / totalQuestions) * 100}%`;
-  //this randomizes the questions we have created
+  //This randomizes the questions that were created
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
@@ -188,7 +189,7 @@ getNewQuestion = () => {
   console.log("true");
 };
 
-//this will be the function that allows for clicking the answer for the question to see if it is correct or incorrect
+//This will be the function that allows for clicking the answer for the question to see if it is correct or incorrect
 //I want to implement a color cue for if the question is right or wrong.
 //There is also a timeout function to move onto the next question (not sure if it'll stay yet)
 
