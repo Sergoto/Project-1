@@ -30,7 +30,6 @@ I chose the Trivia game because of a comment our instructor said that stuck out 
 As for the theme... I just love movies, and I feel I've been on IMDB more than any other site in my lifetime (aside from Google), so I wanted to incorporate that into a project I made. 
 
 ### Hurdles:
-Hurdles:
 - Starting from scratch and figuring out how to make something out of nothing. Sometimes I stuggle with the starting point but once it gets going, I'm able to focus on it.
 - Creating a functioning array of questions and answers.
 - Getting the questions to display properly if they were correct or incorrect.

@@ -173,7 +173,8 @@ getNewQuestion = () => {
   questionCounter++;
   progressText.innerHTML = `Question ${questionCounter} of ${totalQuestions}`;
   progressBarFull.style.width = `${(questionCounter / totalQuestions) * 100}%`;
-  //This randomizes the questions that were created
+
+  //This randomizes the questions that were created in the array
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
@@ -224,11 +225,4 @@ incrementScore = (num) => {
 
 startGame();
 
-//popup = modal / alert
-// popup via alert =simple
-// popup via modal =more complex but more customization
-//
-//everytime we click the answer we get the popup to appear with the trivia fact
-//
-//we can make this only the correct answer as well
-//
+

@@ -21,3 +21,14 @@ List of movies to include in the question list:
 - The Godfather (Rating: 9.2) The studios knew that had a masterpiece on their hands, the early buzz for this movie was so positive a sequel was planned before the film even finished.
 - Crash (Rating: 7.8) Crash won the Oscar for best picture in what many consider an upset. Some nominess that year were Brokeback Mountain, Capote, Munich.
 - Star Wars (Rating: ) 
+
+
+Options for future improvements:
+//popup = modal / alert
+// popup via alert =simple
+// popup via modal =more complex but more customization
+//
+//everytime we click the answer we get the popup to appear with the trivia fact
+//
+//we can make this only the correct answer as well
+//
